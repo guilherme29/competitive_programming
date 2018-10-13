@@ -1,3 +1,9 @@
+/*
+exercicio 11572_uva
+n percebi o porque de no pior caso a insercao num unordered_set ser O(n)
+acho que tem ordem linear mas posso estar enganado
+*/
+
 #include<iostream>
 #include<unordered_set>
 #include<list>
