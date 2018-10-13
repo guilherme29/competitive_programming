@@ -1,3 +1,8 @@
+/*
+exercicio 11136_uva
+complexidade O(n log n) pois a insercao num multiset custa n log n e e a complexidade majorante do programa
+ */
+
 
 #include<iostream>
 #include<set>
@@ -6,7 +11,6 @@
 using namespace std;
 int raffle(int ndays);
 
-
 int main(){
   int ndays; cin >> ndays;
   while(ndays > 0){
@@ -14,6 +18,7 @@ int main(){
     cout << payment << "\n"; 
     cin >> ndays;
   }
+  return 0;
 
 }
 
