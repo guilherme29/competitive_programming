@@ -9,12 +9,12 @@ complexidade O(n log n) pois a insercao num multiset custa n log n e e a complex
 #include<climits>
 
 using namespace std;
-int raffle(int ndays);
+long long raffle(int ndays);
 
 int main(){
   int ndays; cin >> ndays;
   while(ndays > 0){
-    int payment = raffle(ndays);
+    long long payment = raffle(ndays);
     cout << payment << "\n"; 
     cin >> ndays;
   }
@@ -23,9 +23,9 @@ int main(){
 }
 
 
-int raffle(int ndays){
+long long raffle(int ndays){
   multiset<int> bills;
-  int payment = 0;
+  long long payment = 0;
   for(int i=0; i<ndays; i++){
     //reading the data
     int nbills; cin >> nbills;
