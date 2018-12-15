@@ -1,0 +1,19 @@
+#include<cstdio>
+#include<cmath>
+
+using namespace std;
+
+double f(int p, int q, int r, int s, int t, int u, double x){
+  return p*exp(-1) + q*sin(x) + r*cos(x) + s*tan(x) + t*pow(x,2);
+}
+
+int main(){
+  int p, q, r, s, t, u;
+  double x;
+  for(int k=0; k<2100; k++){
+    
+  }
+
+  
+  return 0;
+}
